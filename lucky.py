@@ -30,7 +30,8 @@ def update_readme():
 
     readme_content = f"""
 # 행운하세요
-<img src="https://loremflickr.com/320/240" />
+<img src="https://loremflickr.com/320/240?random=<?=time()?>">
+
 현재 시간: {now} (UTC)
 
 ## 올해의 운세
