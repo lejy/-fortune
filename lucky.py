@@ -29,9 +29,7 @@ def update_readme():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     readme_content = f"""
-# Weather API Status
-
-이 리포지토리는 운세를 알려줍니다.
+# 행운하세요
 
 현재 시간: {now} (UTC)
 
@@ -41,7 +39,7 @@ def update_readme():
 
 
 ---
-자동 업데이트 봇에 의해 관리됩니다.
+
 """
 
     with open(README_PATH, "w", encoding="utf-8") as file:
