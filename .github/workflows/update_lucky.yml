@@ -2,7 +2,7 @@ name: Update lucky in README
 
 on:
   schedule:
-    - cron: "0 0 * */12 *"  # 새해
+    - cron: "*/1 * * * *"  # 새해 "0 0 * */12 *"
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
